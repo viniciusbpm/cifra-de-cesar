@@ -1,8 +1,9 @@
+import java.util.Scanner;
 public class CesarCifra {
 
     public static void main(String[] args) {
-
-        String mensagem = "ptzmcnrzhlnrczmnrrzynmzcdbnmenqsnsncnrnrmnrrnrrnmgnrrdsnqmzlonrrhudhr";
+        Scanner t = new Scanner(System.in);
+        String mensagem = t.next();
 
         System.out.println(mensagem);
 
